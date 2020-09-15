@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.header_logo h1{
+    font-family: 'Charm';
+}
+header{
+    height: 10vh;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: solid 0.3vw #000;
+}
+header li{
+    display: inline-block;
+    margin: 0 4vw ;
+}
+header h1{
+    margin-left: 2vw;
+}
+.header_logo{
+    /* background-color: coral; */
+    box-sizing: border-box;
+    width: 40vw;
+    font-size: 4vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header_menu_items{
+    font-family: rockwell;
+    font-size: 3.5vh;
+    font-weight: 500;
+    width: 55vw;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;  
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #999;
+    width: 100vw;
+    height: 5vh;
+    
+}
+footer h2{
+    margin-left: 2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+}
+.footer_menu{
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+}
+footer li{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 0 2vw;
+}
